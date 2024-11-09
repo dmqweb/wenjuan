@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "ESM",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "dmq",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.15.3",
+    "koa-router": "^13.0.1",
+    "string-random": "^0.1.3"
+  }
+}
